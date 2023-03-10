@@ -1,0 +1,2 @@
+Ctrl+Alt+s: capture
+Ctrl+Alt_e: exit
