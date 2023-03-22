@@ -36,12 +36,14 @@ $doc=GUICtrlRead($enter_filename)
 GUIDelete()
 
 _ScreenCapture_Capture($f & '\' & $doc & '.jpg')
+MsgBox(64, 'hooray!', 'screenshot successful')
 Exit
 ElseIf $msg=$png Then
 $doc=GUICtrlRead($enter_filename)
 GUIDelete()
 
 _ScreenCapture_Capture($f & '\' & $doc & '.png')
+MsgBox(64, 'hooray!', 'screenshot successful')
 Exit
 
 EndIf
